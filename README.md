@@ -13,6 +13,7 @@ See the example.py file for an example of how to use them and the comments in Gr
 Briefly, you can load the file using
 ```
 import Gradient_Descent_vs_Fast_Gradient_Descent
+import pandas as pd
 ```
 
 Specify your data souce
