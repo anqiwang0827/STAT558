@@ -23,7 +23,7 @@ simple simulated dataset
 ```
 real-world dataset
 ```
-https://statweb.stanford.edu/~tibs/ElemStatLearn/datasets/spam.data', sep=' ', header=None
+https://statweb.stanford.edu/~tibs/ElemStatLearn/datasets/spam.data
 ```
 and then run
 ```
