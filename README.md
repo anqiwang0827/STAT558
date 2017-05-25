@@ -16,11 +16,16 @@ import Gradient_Descent_vs_Fast_Gradient_Descent
 ```
 
 Specify your data souce
+simple simulated dataset
 ```
 
-```
 
-and then use cubic regularization by running
+```
+real-world dataset
+```
+https://statweb.stanford.edu/~tibs/ElemStatLearn/datasets/spam.data', sep=' ', header=None
+```
+and then run
 ```
 cr = src.cubic_reg.CubicRegularization(x0, f=f, gradient=grad, hessian=hess, conv_tol=1e-4)
 x_opt, intermediate_points, n_iter, flag = cr.cubic_reg()
