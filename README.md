@@ -24,7 +24,8 @@ There are three options:
    Calculate optimal beta values from gradient and fast gradient algorithm. And plot the curve of the 
    objective value for both algorithms versus the iteration. And plot the misclassification error for 
    both algorithm versus iterations.
-   Data: scikt learn built-in data iris. Can be import directed by using from sklearn.datasets import load_iris.
+   Data: scikt learn built-in data iris. Can be import directed by using from sklearn.datasets 
+   import load_iris.
 2, Comparison with Scikit-Learn (Real World Data)]:
    Compare optimal beta values from fast gradient algorithm and scikit learn using the same lambda 
    value. And compare the corresponding objective value from fast gradient algorithm and scikit learn.
